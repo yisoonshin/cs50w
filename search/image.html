@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Image Search</title>
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+              crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Droid+Sans">
+    </head>
+    <body>
+        <div>
+            <! -- nav bar area -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="d-inline-block align-top" >
+                   <img src="assets/google_logo.png" id="nav-logo" style="height: 30px; width: auto;" alt="google logo">
+                </div>
+                <ul class="navbar-nav ml-auto mt-2">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Google Search</a></li>
+                </ul>
+            </nav>
+
+            <! -- form area -- >
+            <div class="logo-feature">
+                <img src="assets/google_logo.png" alt="logo feature" id="logo-feat">
+            </div>
+            <div class="search-panel" align="center">
+                <form action="https://google.com/search">
+                    <input type="text" name="q" style="width: 400px;" >
+                    <div>
+                        <input type="submit" value="Image Search">
+                        <input type="hidden" name="tbm" value="isch">
+                    </div>
+                </form>
+            </div>
+    </body>
+</html>

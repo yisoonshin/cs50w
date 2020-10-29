@@ -1,0 +1,61 @@
+body {
+    font-family: Roboto, Droid Sans, Helvetica;
+}
+
+#nav-logo {
+    width: auto;
+    height: 50px;
+}
+
+.logo-feature {
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+#logo-feat {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+.search_panel {
+    max-width: 80%;
+}
+
+.line {
+    height: 1px;
+    background-color: rgba(154, 160, 166, .5);
+    margin: 10px 0px;
+}
+
+#adv_search {
+    margin: 40px 0px 20px 40px;
+    color: rgb(179, 20, 18);
+    font-size: 32px;
+}
+
+.form {
+    margin: 30px 80px 30px 40px;
+    min-width: 300px;
+    max-width: 1400px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    min-width: 100px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-width: 200px;
+}
+
+#asearch_button {
+    width: 200px;
+    display:inline-block;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(66, 133, 244);
+}

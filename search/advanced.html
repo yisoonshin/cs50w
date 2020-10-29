@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+              crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Droid+Sans">
+    </head>
+    <body>
+        <! -- nav bar area -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="d-inline-block align-top" >
+               <img src="assets/google_logo.png" id="nav-logo" style="height: 30px; width: auto;" alt="google logo">
+            </div>
+            <ul class="navbar-nav ml-auto mt-2">
+                <li class="nav-item"><a class="nav-link" href="index.html">Google Search</a></li>
+            </ul>
+        </nav>
+
+        <! -- form area -- >
+        <label id="adv_search">Advanced Search</label>
+        <div class="line"></div>
+        <div class="form">
+            <form action="https://google.com/search">
+                <h3>Find pages with:</h3>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="as_q">all these words:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="as_q" id="as_q" placeholder="how">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">this exact word or phrase:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="as_epq" placeholder="now">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">any of these words:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="as_oq" placeholder="brown">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">none of these words:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="as_eq" placeholder="cow">
+                    </div>
+                </div>
+                <div class="float-right">
+                    <input type="submit" class="btn" id="asearch_button" value="Advanced Search">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
