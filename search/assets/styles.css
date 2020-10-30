@@ -22,6 +22,31 @@ body {
     max-width: 80%;
 }
 
+#q {
+    width: 600px;
+    border-radius: 30px;
+    height: 60px;
+    border-color: rgb(241, 243, 244, .9);
+    border-weight: 1px;
+}
+
+.main-btn {
+    background-color: rgb(241, 243, 244);
+    border: none;
+    color: rgb(95, 99, 104);
+    height: 50px;
+}
+
+.main-btn:hover {
+    background-color: white;
+    border: solid;
+    border-weight: 1px;
+    border-color: rgb(241, 243, 244);
+    color: rgb(95, 99, 104);
+    height: 50px;
+}
+
+
 .line {
     height: 1px;
     background-color: rgba(154, 160, 166, .5);
